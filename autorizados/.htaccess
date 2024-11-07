@@ -1,0 +1,7 @@
+Order deny,allow
+AuthUserFile "/etc/apache2/claves.txt"
+AuthGroupFile "/etc/apache2/grupos.txt"
+AuthName "Identificate"
+AuthType Basic
+Require group admin
+blalalalalalal
